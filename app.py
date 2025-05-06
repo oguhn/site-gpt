@@ -29,6 +29,7 @@ st.markdown(
 with st.sidebar:
     openai_api_key = st.text_input("Your OpenAI API Key", type="password")
     st.markdown("https://github.com/oguhn/site-gpt/blob/main/app.py")
+    st.markdown("인증 애러가 있습니다. 해결 못했습니다..ㅠ")
 
 answers_prompt = ChatPromptTemplate.from_template(
     """
